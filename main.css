@@ -1,0 +1,99 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background: #fff;
+  color: #343a40;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #1b6ec2;
+}
+
+p, ul li, li {
+  font-family: 'Quicksand';
+}
+
+ul {
+  margin: 0 0 1em;
+  padding: 0;
+  list-style: none;
+  list-style-image: none;
+}
+
+ul>li {
+  margin: 0 auto .8em 1.7em;
+  line-height: 1.55;
+}
+ul>li:before {
+  content: "\2022";
+  padding-right: .65em;
+  font-family: inherit;
+  font-size: 1.2em;
+  line-height: 1.2;
+  position: absolute;
+  width: 1.7em;
+  margin-left: -1.7em;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: right;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #f1f3f5;
+  margin: 1.5rem auto;
+}
+
+.container {
+  max-width: 48rem;
+  padding: 5rem 1rem;
+  margin: 0 auto;
+}
+
+.me {
+  text-transform: lowercase;
+  margin-bottom: .75rem;
+  font-size: 1.5rem;
+}
+.me a {
+  color: #343a40!important;
+}
+
+.inline-nav a {
+  margin-right: .3rem;
+  color: #343a40!important;
+}
+
+.content-wrap h1 {
+  font-weight: 600;
+}
+
+.content-wrap h3 {
+  font-weight: 400;
+}
+
+.content-wrap h2 {
+  font-weight: initial;
+  padding-bottom: .3em;
+  border-bottom: 1px solid #eee;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+}
+
+.footer-links {
+  margin: .2rem;
+}
+
+.footer-links a {
+  color: #343a40;
+  margin: 4px;
+}
