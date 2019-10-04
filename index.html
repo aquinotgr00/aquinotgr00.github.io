@@ -21,8 +21,8 @@
 
         <nav class="inline-nav">
           <a href="https://aquinotgr00.github.io">about</a>
-          <a href="#">projects</a>
-          <a href="#">logs</a>
+          <a href="javascript::void(0)" onclick="alert('Under construction!')">projects</a>
+          <a href="javascript::void(0)" onclick="alert('Coming Soon!')">logs</a>
           <a href="https://github.com/aquinotgr00">github</a>
         </nav>
       </header>
@@ -30,9 +30,11 @@
       <div class="content-wrap">
         <h1 class="page-title">About</h1>
         <p>
-          Hi, My name is Aquino Tegar i am a back-end by day and devOps engineer by night, living in Yogyakarta Indonesia.
-          I study computer science at <a href="https://amikom.ac.id">Amikom</a>.<br>
-          Currently working at Terhubung.Id platform as a devOps engineer.
+          Hi I’m Tegar,
+          Experienced Web Developer with almost 3 years in the field.<br /><br />
+          Here’s a couple things that I do:<br />
+          I build backend and API endpoints using laravel-mysql, I build frontend with React/Vue JS, I build iOS/Android app from React Native, and I personally use docker for my local development<br /><br />
+          PS: I have unpoured crush on Node Js and Python, I would love to if you give me the chance.
         </p>
 
         <h2 id="resume">Resume</h2>
@@ -40,12 +42,21 @@
         <h2 id="experience">Experience</h2>
         <h3>Professional</h3>
         <ul>
-          <li>Implementing CI/CD workflow at Terhubund.Id using docker and automation tools such as ansible also built-in dev tools from AWS for CI/CD orchestration.</li>
-          <li>Back end web developer using PHP and Laravel as the framework for building company spesific needs web based application and using contanerized environment with docker for almost two years.</li>
+          <li>
+            I work on various project such as a simple e-commerce and it's payment gateway, I learn to create mobile apps using React Native as the project ongoing also create backend api endpoint using laravel at <a href="https://blm.solutions">Bajak Laut Malaka</a>.
+          </li>
+          <li>
+            I help the core team to build front end application using Vue JS on their travel site web based app at <a href="https://www.linkedin.com/company/teras-code-digital/">Teras Code Digital</a>
+          </li>
+          <li>
+            Full stack web developer for 2 years using Laravel to build company spesific needs web based application and using contanerized environment with docker at Indotech Group Yogyakarta.
+          </li>
         </ul>
         <h3>Academic</h3>
         <ul>
+          <li>Computer Engineer Student at <a href="https://amikom.ac.id" target="__blank">Amikon University</a></li>
           <li>Intern at PT. Desnet Internet Service Provider Semarang on the Wordpress Development team.</li>
+          <li>Software Engineer Student at <a href="https://www.tunasharapan.info/official/" target="__blank">SMK Telekomunikasi Tunas Harapan</a></li>
         </ul>
         <h3>Relevant Skills</h3>
         <ul>
@@ -53,32 +64,30 @@
           <li>Javascript</li>
           <li>MySQL</li>
           <li>Laravel</li>
-          <li>CI/CD Implementation</li>
+          <li>React/React-Native JS</li>
+          <li>Vue JS</li>
         </ul>
         <h2 id="contact">Contact</h2>
-        <p>You can shot me an email at <a href="mailto:aquinotgr@pm.me">aquinotgr@pm.me</a></p>
+        <p>You can send me an email at <a href="mailto:aquinotgr@pm.me">aquinotgr@pm.me</a></p>
       </div>
 
       <footer>
         <hr>
         <div class="footer-links">
-          <a href="https://www.linkedin.com/in/aquino-tegar-a8166a142/">
+          <a href="https://www.linkedin.com/in/aquino-tegar-a8166a142/" target="__blank">
             <i class="fa fa-linkedin"></i>
           </a>
-          <a href="https://github.com/aquinotgr00">
-            <i class="fa fa-github"></i>
-          </a>
-          <a href="https://instagram.com/aquinotgr">
-            <i class="fa fa-instagram"></i>
-          </a>
-          <a href="mailto:aquinotgr@pm.me">
-            <i class="fa fa-envelope"></i>
+          <a href="https://twitter.com/aquinotgr00" target="__blank">
+            <i class="fa fa-twitter"></i>
           </a>
         </div>
-        &copy; 2018 Aquino Tegar. All rights reserved.<br>
-        Also available at dat network at <a href="https://aquinotegar.hashbase.io/">dat://aquinotegar.hashbase.io</a>
+        &copy; <span id="year">2018</span> Aquino Tegar. All rights reserved.<br>
+        Also available at dat network at <a href="https://aquinotegar.hashbase.io/" target="__blank">dat://aquinotegar.hashbase.io</a>
       </footer>
     </div>
 
+    <script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 </body>
 </html>
